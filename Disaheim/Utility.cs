@@ -11,9 +11,9 @@ public class Utility
     {
         switch (amulet.Quality)
         {
-            case Level.low: return 12.5;
-            case Level.medium: return 20.0;
-            case Level.high: return 27.5;
+            case Level.Low: return 12.5;
+            case Level.Medium: return 20.0;
+            case Level.High: return 27.5;
             default: return 0.0;
         }
     }

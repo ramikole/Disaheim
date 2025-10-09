@@ -6,7 +6,7 @@ public class Amulet
     public string Design;
     public Level Quality;
     
-    public Amulet(string itemId) : this(itemId, Level.medium, "")
+    public Amulet(string itemId) : this(itemId, Level.Medium, "")
     {
     }
 
