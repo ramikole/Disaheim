@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DisaheimTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+405cdc7cbb52411c88ee7728a49de80c77da6c2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DisaheimTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DisaheimTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
