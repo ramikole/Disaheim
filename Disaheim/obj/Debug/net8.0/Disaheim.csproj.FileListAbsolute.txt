@@ -1,0 +1,14 @@
+/Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/Disaheim/bin/Debug/net8.0/Disaheim
+/Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/Disaheim/bin/Debug/net8.0/Disaheim.deps.json
+/Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/Disaheim/bin/Debug/net8.0/Disaheim.runtimeconfig.json
+/Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/Disaheim/bin/Debug/net8.0/Disaheim.dll
+/Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/Disaheim/bin/Debug/net8.0/Disaheim.pdb
+/Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/Disaheim/obj/Debug/net8.0/Disaheim.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/Disaheim/obj/Debug/net8.0/Disaheim.AssemblyInfoInputs.cache
+/Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/Disaheim/obj/Debug/net8.0/Disaheim.AssemblyInfo.cs
+/Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/Disaheim/obj/Debug/net8.0/Disaheim.csproj.CoreCompileInputs.cache
+/Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/Disaheim/obj/Debug/net8.0/Disaheim.dll
+/Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/Disaheim/obj/Debug/net8.0/refint/Disaheim.dll
+/Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/Disaheim/obj/Debug/net8.0/Disaheim.pdb
+/Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/Disaheim/obj/Debug/net8.0/Disaheim.genruntimeconfig.cache
+/Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/Disaheim/obj/Debug/net8.0/ref/Disaheim.dll
