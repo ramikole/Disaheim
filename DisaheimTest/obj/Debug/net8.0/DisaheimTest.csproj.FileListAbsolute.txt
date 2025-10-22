@@ -114,3 +114,6 @@
 /Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/DisaheimTest/obj/Debug/net8.0/DisaheimTest.pdb
 /Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/DisaheimTest/obj/Debug/net8.0/DisaheimTest.genruntimeconfig.cache
 /Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/DisaheimTest/obj/Debug/net8.0/ref/DisaheimTest.dll
+/Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/DisaheimTest/obj/Debug/net8.0/DisaheimTest.sourcelink.json
+/Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/DisaheimTest/bin/Debug/net8.0/UtilityLib.dll
+/Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/DisaheimTest/bin/Debug/net8.0/UtilityLib.pdb
