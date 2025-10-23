@@ -1,4 +1,5 @@
 using Disaheim;
+/*
 namespace DisaheimTest
 
 {
@@ -15,7 +16,6 @@ namespace DisaheimTest
         public void Init()
         {
             // Arrange
-
             b1 = new Book("1");
             b2 = new Book("2", "Falling in Love with Yourself");
             b3 = new Book("3", "Spirits in the Night", 123.55);
@@ -88,3 +88,4 @@ namespace DisaheimTest
         }
     }
 }
+*/

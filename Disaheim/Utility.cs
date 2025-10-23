@@ -2,12 +2,12 @@ namespace Disaheim;
 
 public class Utility
 {
-    public double GetValueOfBook(Book book)
+    public static double GetValueOfBook(Book book)
     {
         return book.Price;
     }
 
-    public double GetValueOfAmulet(Amulet amulet)
+    public static double GetValueOfAmulet(Amulet amulet)
     {
         switch (amulet.Quality)
         {
@@ -18,7 +18,7 @@ public class Utility
         }
     }
 
-    public double GetValueOfCourse(Course course)
+    public static double GetValueOfCourse(Course course)
     {
         int minutes = course.DurationInMinutes;
 
