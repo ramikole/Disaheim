@@ -12,3 +12,4 @@
 /Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/Disaheim/obj/Debug/net8.0/Disaheim.pdb
 /Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/Disaheim/obj/Debug/net8.0/Disaheim.genruntimeconfig.cache
 /Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/Disaheim/obj/Debug/net8.0/ref/Disaheim.dll
+/Users/ramikole/RiderProjects/UCL Øvelser/Disaheim/Disaheim/obj/Debug/net8.0/Disaheim.sourcelink.json

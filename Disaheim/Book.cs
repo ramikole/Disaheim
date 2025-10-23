@@ -1,10 +1,9 @@
 namespace Disaheim;
 
-public class Book
+public class Book : Merchandise
 {
-    public string ItemId;
-    public string Title;
-    public double Price;
+    public string Title { get; set; }
+    public double Price { get; set; }
 
     public Book(string itemId) : this(itemId, "", 0.0)
     {
@@ -16,13 +15,13 @@ public class Book
 
     public Book(string itemId, string title, double price)
     {
-        this.ItemId = itemId;
-        this.Title = title;
-        this.Price = price;
+        ItemId = itemId;
+        Title = title;
+        Price = price;
     }
 
     public override string ToString()
     {
-        return $"ItemId: {ItemId}, Title: {Title}, Price: {Price}";
+        return $"{base.ToString()}, Title: {Title}, Price: {Price}";
     }
 }

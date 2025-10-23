@@ -2,19 +2,46 @@ namespace Disaheim;
 
 public class Utility
 {
-    public double GetValueOfBook(Book book)
+    public const double LowQualityValue = 12.5;
+    public const double MediumQualityValue = 20.0;
+    public const double HighQualityValue = 27.5;
+    public const double CourseHourValue = 875.0;
+
+    public static double GetValueOfMerchandise(Merchandise merchandise)
     {
-        return book.Price;
+        if (merchandise is Book book)
+        {
+            return book.Price;
+        }
+        if (merchandise is Amulet amulet)
+        {
+            switch (amulet.Quality)
+            {
+                case Level.low:
+                    return LowQualityValue;
+
+                case Level.medium:
+                    return MediumQualityValue;
+
+                case Level.high:
+                    return HighQualityValue;
+
+                default:
+                    return 0.0;
+            }
+        }
+        return 0.0;
     }
 
-    public double GetValueOfAmulet(Amulet amulet)
+    public static double GetValueOfCourse(Course course)
     {
-        switch (amulet.Quality)
-        {
-            case Level.Low: return 12.5;
-            case Level.Medium: return 20.0;
-            case Level.High: return 27.5;
-            default: return 0.0;
-        }
+        int minutes = course.DurationInMinutes;
+        int hours = minutes / 60;
+        int remainder = minutes % 60;
+
+        if (remainder > 0)
+            hours += 1;
+
+        return hours * CourseHourValue;
     }
 }
