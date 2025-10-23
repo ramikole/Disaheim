@@ -32,4 +32,9 @@ public class CourseRepository
         }
         return total;
     }
+    
+    public List<Course> GetAllCourses()
+    {
+        return courses;
+    }
 }

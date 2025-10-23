@@ -28,4 +28,20 @@ public class Controller
     {
         courseRepo.AddCourse(course);
     }
+    
+    public List<Book> GetAllBooks()
+    {
+        return bookRepo.GetAllBooks();
+    }
+
+    public List<Amulet> GetAllAmulets()
+    {
+        return amuletRepo.GetAllAmulets();
+    }
+
+    public List<Course> GetAllCourses()
+    {
+        return courseRepo.GetAllCourses();
+    }
+
 }

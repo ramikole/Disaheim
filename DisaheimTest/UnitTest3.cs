@@ -1,5 +1,5 @@
 using Disaheim;
-/*
+
 namespace DisaheimTest
 
 {
@@ -48,24 +48,23 @@ namespace DisaheimTest
         public void TestBookList()
         {
             // Assert
-            Assert.AreEqual(b3, controller.Books[2]);
+            Assert.AreEqual(b3, controller.GetAllBooks()[2]);
         }
 
         [TestMethod]
         public void TestAmuletList()
         {
             // Assert
-            Assert.AreEqual(a1, controller.Amulets[0]);
+            Assert.AreEqual(a1, controller.GetAllAmulets()[0]);
         }
         [TestMethod]
 
         public void TestCourseList()
         {
 // Assert
-            Assert.AreEqual(c1, controller.Courses[0]);
-            Assert.AreEqual(c2, controller.Courses[1]);
-            Assert.AreEqual(c3, controller.Courses[2]);
+            Assert.AreEqual(c1, controller.GetAllCourses()[0]);
+            Assert.AreEqual(c2, controller.GetAllCourses()[1]);
+            Assert.AreEqual(c3, controller.GetAllCourses()[2]);
         }
     }
 }
-*/

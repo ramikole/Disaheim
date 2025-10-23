@@ -30,8 +30,14 @@ public class BookRepository
         double total = 0;
         foreach (Book b in books)
         {
-            total += Utility.GetValueOfBook(b);
+            total += Utility.GetValueOfMerchandise(b);
         }
         return total;
     }
+    
+    public List<Book> GetAllBooks()
+    {
+        return books;
+    }
+
 }

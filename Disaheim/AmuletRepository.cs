@@ -28,8 +28,13 @@ public class AmuletRepository
         double total = 0;
         foreach (Amulet b in amulets)
         {
-            total += Utility.GetValueOfAmulet(b);
+            total += Utility.GetValueOfMerchandise(b);
         }
         return total;
+    }
+    
+    public List<Amulet> GetAllAmulets()
+    {
+        return amulets;
     }
 }
